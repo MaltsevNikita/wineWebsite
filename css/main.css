@@ -1,0 +1,240 @@
+body {
+  width: 1366px;
+}
+.header {
+  background-color: black;
+}
+.container {
+  margin: 0 auto;
+  width: 1173px;
+}
+/* group1 */
+.group1__ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 0;
+}
+.logoText {
+  list-style: none;
+  color: #ffffff;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  color: #ffffff;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.group1__grup1Img__Img {
+  height: 100%;
+}
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 30px;
+}
+.group1 {
+  border-bottom: white 2px solid;
+}
+/* group3 */
+.experience {
+  font-family: ChocolateBox;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 12px;
+  margin: 0;
+}
+.inEach {
+  margin: 0;
+  padding-bottom: 24px;
+  font-size: 96px;
+  font-family: ChocolateBox;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+}
+.bottleSpan {
+  color: #e2b024;
+}
+.group3 a {
+  text-decoration: none;
+}
+.readMore {
+  text-decoration: none;
+  text-align: center;
+  color: #e2b024;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 108px;
+  border-bottom: 2px solid #e2b024;
+  margin-bottom: 30px;
+}
+.BottlesImage {
+  display: block;
+  margin: 0 auto;
+}
+.merlotSection {
+  display: flex;
+  color: #ffffff;
+  padding-top: 267px;
+  padding-bottom: 200px;
+}
+.merlotHeadingsDiv {
+  text-decoration: none;
+  width: 527px;
+}
+.merlotDesc {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 64px;
+  width: 526px;
+}
+.newWines {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.35em;
+  text-align: left;
+}
+.wineName {
+  color: #e2b024;
+  font-family: ChocolateBox;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slogan {
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.merlotHeadingsDiv__buttons {
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.merlotHeadingsDiv__buttons :first-child {
+  background-color: #e2b024;
+  color: black;
+  text-decoration: none;
+  margin-top: 64px;
+  margin-right: 61px;
+  margin-left: 0;
+  padding: 23px 48px 22px 47px;
+}
+
+.merlotHeadingsDiv__buttons :last-child {
+  border: 1px solid #e2b024;
+  color: white;
+  text-decoration: none;
+  margin-top: 64px;
+  padding: 23px 48px 22px 47px;
+}
+.merlotImgDiv {
+  width: 600px;
+  position: relative;
+}
+.merlotImgDiv__slider {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  order: 1px solid red;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.merlotImgDiv__slider__bottleImg {
+  position: absolute;
+  z-index: 2;
+  transform: translate(0px, -100px);
+}
+.ellipse {
+  margin: 0 auto;
+  transform: translate(-20%, 10%);
+}
+.merlotVector1 {
+  padding-bottom: 13px;
+  z-index: 1;
+}
+.merlotVector2 {
+  padding-top: 13px;
+  z-index: 1;
+}
+.bottle {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+
+.futuredProducts {
+  color: white;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.futuredProducts span {
+  color: #e2b024;
+}
+.futuredProducts h2 {
+  display: inline;
+  color: white;
+  font-family: ChocolateBox;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.vineType {
+  list-style: none;
+  display: flex;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.vineType li {
+  color: white;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+}
