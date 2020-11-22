@@ -1,5 +1,6 @@
 body {
   width: 1366px;
+  background-color: black;
 }
 .header {
   background-color: black;
@@ -88,6 +89,8 @@ body {
   color: #ffffff;
   padding-top: 267px;
   padding-bottom: 200px;
+  background-color: black;
+  justify-content: space-between;
 }
 .merlotHeadingsDiv {
   text-decoration: none;
@@ -213,6 +216,7 @@ body {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
+  margin-top: 30px;
 }
 .futuredProducts span {
   color: #e2b024;
@@ -233,7 +237,7 @@ body {
   margin: 0;
 }
 .vineType {
-  justify-content: space-evenly;
+  justify-content: center;
   list-style: none;
   display: flex;
   font-family: Poppins;
@@ -242,13 +246,17 @@ body {
   font-weight: 400;
   /* line-height: 36px; */
   letter-spacing: 0em;
-  text-align: center;
-  margin: 0;
-  margin-top: 90px;
+  /* Располагаем блок по центру */
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 20px;
 }
 .vineType li {
   color: white;
   padding: 20px;
+  margin: 0;
+  padding-right: 74px;
 }
 .vineType li a {
   text-decoration: none;
@@ -257,4 +265,54 @@ body {
 .vineType :hover a {
   color: #e2b024;
   border-bottom: 2px solid #e2b024;
+}
+
+/* Vine Cards */
+.vineCards {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+}
+.firstCardLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.secondCardLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.vineCard {
+  flex-direction: column;
+  text-align: center;
+}
+.vineName {
+  color: #ffffff;
+  text-align: center;
+}
+.vinePrices {
+  display: inline;
+}
+.oldPrice {
+  color: #e2b024;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: line-through;
+}
+.newPrice {
+  color: #e2b024;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
