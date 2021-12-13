@@ -1,5 +1,5 @@
 body {
-  width: 1366px;
+  max-max-width: 1366px;
   background-color: black;
 }
 .header {
@@ -7,7 +7,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 1173px;
+  max-max-width: 1173px;
 }
 /* group1 */
 .group1__ul {
@@ -76,7 +76,7 @@ body {
   color: #e2b024;
   font-size: 16px;
   margin: 0 auto;
-  width: 108px;
+  max-max-width: 108px;
   border-bottom: 2px solid #e2b024;
   margin-bottom: 30px;
 }
@@ -94,7 +94,7 @@ body {
 }
 .merlotHeadingsDiv {
   text-decoration: none;
-  width: 527px;
+  max-width: 527px;
 }
 .merlotDesc {
   font-family: Poppins;
@@ -105,7 +105,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 64px;
-  width: 526px;
+  max-width: 526px;
 }
 .newWines {
   font-family: Poppins;
@@ -172,7 +172,7 @@ body {
   padding: 23px 48px 22px 47px;
 }
 .merlotImgDiv {
-  width: 600px;
+  max-width: 600px;
   position: relative;
 }
 .merlotImgDiv__slider {
@@ -270,7 +270,7 @@ body {
 /* Vine Cards  */
 .vineCards {
   display: block;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .firstCardLine {
